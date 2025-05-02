@@ -1,0 +1,66 @@
+node_modules
+
+# Output
+.output
+.vercel
+.netlify
+.wrangler
+/.svelte-kit
+/build
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Env
+.env
+.env.*
+!.env.example
+!.env.test
+
+# Vite
+vite.config.js.timestamp-*
+vite.config.ts.timestamp-*
+
+
+# Go Backend
+
+# Go executables
+*.exe
+*.test
+*.out
+
+# Go build cache
+/bin/
+/pkg/
+
+# Dependency management (if using Go Modules)
+/vendor/
+go.sum
+
+# IDE specific files
+.idea/
+.vscode/
+*.iml
+*.swp
+*.swo
+
+# OS specific files
+.DS_Store
+Thumbs.db
+
+# Log files
+*.log
+
+# Test coverage files
+coverage.out
+
+# Temporary files
+*~
+# Other editor backup files (e.g. for Vim)
+*.sw?
+*.un~
+*.bkp
+
+# Packages (can be excluded if you rely solely on go.mod)
+# /pkg/
