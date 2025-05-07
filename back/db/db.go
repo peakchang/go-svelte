@@ -47,7 +47,8 @@ CREATE DATABASE testdb default CHARACTER SET UTF8;
 
 CREATE TABLE IF NOT EXISTS test_table(
     id              INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
-    name            VARCHAR(250),
+    name            VARCHAR(250) UNIQUE,
+	memo            VARCHAR(250),
     age             INT,
     confirm_type    BOOLEAN DEFAULT FALSE,
     created_at      DATETIME DEFAULT CURRENT_TIMESTAMP
